@@ -26,7 +26,10 @@ Ahora subo esta **versión prototipo inicial** con la intención de mejorarla vi
 
 ## 🚀 Cómo probarlo
 
-Puedes abrir el archivo `index.html` directamente en tu navegador o clonarlo en local con:
+👀 Puedes abrir el archivo `index.html` directamente en tu navegador aquí:
+https://samuelmartinez93.github.io/piepatibot1.0/
+
+o clonarlo en local con:
 
 ```bash
 git clone https://github.com/samuelmartinez93/piepatibot1.0.git
