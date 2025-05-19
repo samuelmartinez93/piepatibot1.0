@@ -1,0 +1,46 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera demo by Sadwel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra, Papel o Tijera</h1>
+        <p>¿Serás capaz de vencer a Piepatibot?</p>
+
+        <div class="choices">
+            <p>Escoge sabiamente:</p>
+
+            <button onclick="playGame('piedra')">🪨 Piedra</button>
+            <button onclick="playGame('papel')">📄 Papel</button>
+            <button onclick="playGame('tijera')">✂️ Tijera</button>
+        </div>
+
+        <!-- Barra de carga y texto -->
+        <div id="loading" class="loading">
+            <div class="loading-text" id="loading-text"></div>
+            <div class="loading-bar">
+                <div class="loading-fill" id="loading-fill"></div>
+            </div>
+        </div>
+
+        <!-- Contenedor elecciones -->
+        <div class="result-container">
+            <div class="player-choice">
+                <h2>Jugador 1</h2>
+                <div id="player-choice-img" class="choice-img"></div>
+            </div>
+            <div class="ia-choice">
+                <h2>Piepatibot</h2>
+                <div id="ia-choice-img" class="choice-img"></div>
+            </div>
+        </div>
+
+        <div id="result" class="result"></div>
+        <button id="reset" onclick="resetGame()">🔄 Reiniciar partida</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
